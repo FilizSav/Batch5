@@ -1,9 +1,6 @@
 package projects;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Project08 {
@@ -38,7 +35,7 @@ public class Project08 {
         int[] arr4 = {2, 4};
         int[] arr41 = {2, 3, 1, 5};
         int[] arr42 = {4, 7, 8, 6};
-        int[] arr43 = {10, 8, 6, 7};
+        int[] arr43 = {9, 7, 8, 5};
 
         System.out.println(findMissingNumber(arr4));
         System.out.println(findMissingNumber(arr41));
@@ -56,14 +53,15 @@ public class Project08 {
         } return distance;
     }
     public static int findSingleNumber(int[] arr){
-        int findSingle = arr[0];
+        ArrayList<Integer> dup = new ArrayList<>();
+        int single = 0;
         for (int i = 0; i < arr.length; i++) {
-            for (int j = i + 1; j < arr.length; j++)
-                if (arr[i] != arr[j] && findSingle != arr[i]) {
-                    findSingle = arr[i];
-                    break;
-                }
-        }return findSingle;
+            for (int j = i + 1; j < arr.length; j++) {
+                if(arr[i]==arr[j]) dup.add(arr[i]);
+            }
+            if(!dup.contains(arr[i])) single = arr[i];
+        }
+        return single;
     }
     public static String findFirstUniqueCharacter(String s){
         String firstChar = "";

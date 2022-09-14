@@ -28,6 +28,7 @@ Balance after 3rd transaction = $54.5
         System.out.println("Balance after 3rd transaction is = $" +balance);
 */
         int i = 5;
+
         int age = 10 * (i++); //50  int age = 10 * i;
         i = i + 1;
         int p = 5;

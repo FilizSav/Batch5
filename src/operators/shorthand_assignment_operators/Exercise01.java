@@ -35,6 +35,7 @@ Balance after 3rd transaction = $54.5
 
         int p = 5;
         int look = 10 * (++i); //60 i = i + 1;
+
         System.out.println(age);
         System.out.println(look);
     }

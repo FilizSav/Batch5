@@ -1,5 +1,6 @@
 package homeworks;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Homework02 {
@@ -83,14 +84,49 @@ TASK 7
         System.out.println("The " +num3+ " multiplied with " +num3+ " is = "+ num3*num3);
 TASK 8 -Write a Java program that asks user to enter the side of a square as input and print
         square’s perimeter and area    //7
-*/
+
         //Perimeter of the square = 28 Area of the square = 49
 
-        int num1=7;
-        System.out.println("Perimeter of" +num1+ "is = "+num1*4);
-        System.out.println("Area of" +num1+ "is = "+num1*num1);
+        int num1 = 7;
+        System.out.println("Perimeter of " + num1 + " is = " + num1 * 4);
+        System.out.println("Area of " + num1 + " is = " + num1 * num1);
+TASK 9
+        double $pay1 = 90000;
+        System.out.println("A Software Engineer in Test can earn " + "$" + $pay1 * 3 + " in 3 years.");
+TASK 10
+        String favBook, favColor, favNumber;
 
+        System.out.println("What is your favorite book?");
+        favBook = scan.nextLine();
 
+        System.out.println("What is your favorite color?");
+        favColor = scan.nextLine();
 
+        System.out.println("What is your favorite number?");
+        favNumber = scan.nextLine();
+
+        System.out.println("User’s favorite book is: " + favBook);
+        System.out.println("User’s favorite color is: " + favColor);
+        System.out.println("User’s favorite number is: " + favNumber);
+TASK 11 */
+         String firstName, lastName, emailAddress, phoneNumber, address;
+         int age = 45;
+        System.out.println("What is your first name?");
+        firstName = scan.nextLine();
+        System.out.println("What is your last name?");
+        lastName = scan.nextLine();
+        System.out.println("What is your age?");
+        age = scan.nextInt();
+        scan.nextLine();
+        System.out.println("What is your email address?");
+        emailAddress = scan.nextLine();
+        System.out.println("What is your phone number?");
+        phoneNumber = scan.nextLine();
+        System.out.println("What is your address?");
+        address = scan.nextLine();
+        // John Doe 45 johndoe@gmail.com,(123) 123 1234, 123 St Chicago IL 12345.
+        System.out.println("\tUser who joined this program is " +firstName+" " + lastName+"."+" "+firstName+"'s age is "
+                + age+ "."+" "+firstName+"'s email \n address is "+emailAddress+", phone number is "+phoneNumber+
+                ", and address is \n "+address+ ".");
     }
 }

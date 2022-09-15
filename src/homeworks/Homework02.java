@@ -108,7 +108,7 @@ TASK 10
         System.out.println("User’s favorite book is: " + favBook);
         System.out.println("User’s favorite color is: " + favColor);
         System.out.println("User’s favorite number is: " + favNumber);
-TASK 11 */
+TASK 11
          String firstName, lastName, emailAddress, phoneNumber, address;
          int age = 45;
         System.out.println("What is your first name?");
@@ -127,6 +127,21 @@ TASK 11 */
         // John Doe 45 johndoe@gmail.com,(123) 123 1234, 123 St Chicago IL 12345.
         System.out.println("\tUser who joined this program is " +firstName+" " + lastName+"."+" "+firstName+"'s age is "
                 + age+ "."+" "+firstName+"'s email \n address is "+emailAddress+", phone number is "+phoneNumber+
-                ", and address is \n "+address+ ".");
+                ", and address is \n "+address+ "."); */
+
+        int p1 = 5, p2 = 7;
+
+
+        System.out.println("Number 1");
+        p1 = scan.nextInt();
+        scan.nextLine();
+        System.out.println("number 2");
+        p2 = scan.nextInt();
+
+        System.out.println("Sum" + (p1 + p2));
+        System.out.println("subtract" + (p1 + p2));
+        System.out.println("product" + (p1 + p2));
+        System.out.println("division" + (p1 + p2));
+        System.out.println("remainder" + (p1 + p2));
     }
 }

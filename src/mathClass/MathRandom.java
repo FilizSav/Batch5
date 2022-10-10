@@ -1,5 +1,7 @@
 package mathClass;
 
+import java.util.Random;
+
 public class MathRandom {
 
     public static void main(String[] args) {
@@ -17,9 +19,11 @@ public class MathRandom {
         int myRandom20_40 = (int) (Math.random() * (40-20+1)+20 );
         System.out.println(myRandom20_40);
 
+        Random tryRandomScanner = new Random();
 
-
-
-
+        int tryNum1 =  tryRandomScanner.nextInt(36);
+        if (tryNum1/tryNum1 ==1 || tryNum1 %2 == 0 || tryNum1 ==2) System.out.println("Prime Number");
+        else System.out.println("Non Prime Number");
+        System.out.println(tryNum1);
     }
 }

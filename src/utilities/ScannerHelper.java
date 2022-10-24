@@ -28,4 +28,14 @@ public class ScannerHelper {
         System.out.println("Please enter at least 4 favorite colors");
         return input.nextLine();
     }
+    public static int getANumber() {
+        System.out.println("Please enter a number:");
+        int num = input.nextInt();
+        input.nextLine();
+        return num;
+    }
+    public static String getACounty() {
+        System.out.println("Please enter a country");
+        return input.nextLine();
+    }
 }

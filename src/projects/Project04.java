@@ -128,6 +128,7 @@ public class Project04 {
                 if (userA.toLowerCase().charAt(i) == 'a')
                     aCounter++;
             }
-        }System.out.println("This sentence has " + aCounter + " a or A letters.");
+            System.out.println("This sentence has " + aCounter + " a or A letters.");
+        }
     }
 }

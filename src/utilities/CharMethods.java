@@ -89,4 +89,7 @@ public class CharMethods {
 
         return mostRepeated;
     }
+    public static boolean isUppercase(char c){
+        return c >= 65 && c <= 90; // c >= 'A' && c <= 'Z'
+    }
 }

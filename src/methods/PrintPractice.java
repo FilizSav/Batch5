@@ -10,7 +10,7 @@ public class PrintPractice {
         myPrinter.printHello(); // Hello
 
         PrinterUtil.printName("Vlad");
-        PrinterUtil.printName("Viktoriia");
+        PrinterUtil.printName("Viktoria");
         PrinterUtil.printName("John");
     }
 }

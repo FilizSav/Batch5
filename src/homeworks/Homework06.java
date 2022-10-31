@@ -79,14 +79,13 @@ public class Homework06 {
         Arrays.sort(cats);
         System.out.println(Arrays.toString(cats));
 
-        boolean cat = false;
+        boolean cat1 = false;
+        boolean cat2 = false;
         for (String object : cats) {
-            if (object.equals("Garfield") && object.equals("Azrael")) {
-                cat = true;
-                break;
-            }
+            if (object.equals("Garfield")) {cat1 = true;
+            }else if (object.equals("Azrael")) cat2 = true;
         }
-        System.out.println(cat);
+        System.out.println(cat1 == cat2);
 
         System.out.println("------------Task 7-----------");
 

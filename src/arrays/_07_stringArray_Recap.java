@@ -25,8 +25,5 @@ public class _07_stringArray_Recap {
             System.out.println(fruit);
         }
 
-
-
-
     }
 }

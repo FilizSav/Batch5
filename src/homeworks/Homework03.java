@@ -146,65 +146,7 @@ public class Homework03 {
                         System.out.println("DOUBLE MATCH");
                     else {
                 System.out.println("NO MATCH");
-
-        /*Requirement:
-    Task 1-Write a Java program that asks user to enter 2 numbers - int values
-    and find the absolute difference between the two numbers by using Math.abs() method
-    Expected output (The difference between numbers is =)
-    Task 2 -Write a Java program that asks user to enter 5 numbers - int values and find the
-    Max and Min number by using Math.max() and Math.min() methods
-    Expected outcome (Max value = 45 Min value = 3)
-    Task 3 -Write a Java program that generates 3 random numbers between 50 and 100 both included.
-    Use Math.random() First print the numbers Then, find the sum of these numbers
-    Task 4 -Assume Alex has $125, and Mike has $220 And Alex is going to give $25.5 to Mike.
-    Then,How much money will Alex and Mike will have after that?
-    Write a java program to solve the problem given above
-    Expected Output:Alex’s money: $99.5 Mike’s money: 245.5
-    Task 5 Write a program to find how many days later, David can save $390 and buy the bicycle.
-    Task 6 Requirement: Convert given Strings below to int data types and find their sum, product,
-    division, subtraction and remainder.
-    String s1 = “5”, s2 = “10”;
-    Expected results:
-    -Sum of 5 and 10 is = 15
-    -Product of 5 and 10 is = 50
-    -Division of 5 and 10 is = 0
-    -Subtraction of  5 and 10 is = -5
-    -Remainder of 5 and 10 is = 5
-    Task 7 Requirement:Convert given Strings below to int data types and find the greatest and smallest
-    values and find the average and absolute difference of them.
-    String s1 = “200”, s2 = “-50”;
-    Expected results:
-    The greatest value is = 200
-    The smallest value is = -50
-    The average is = 75
-    The absolute difference is = 250
-    Task 8 Assume that you have a coin bank, and you save 3 quarters, 1 dime, 2 nickels and 1 penny each day.
-    -find how many days later you can save $24
-    -find how many days later you can save $168
-    -how much you will save after 5 months (assume a month is 30 days)
-    Task 9 Jessie is going to save $1,250 to buy a new computer. Jessie is saving $62.5 in a day.
-    Write a Java program that calculates how many days it will take for Jessie to but the computer.
-    Task 10 Dan is going to save $14,265 to buy a new car. Dan is given two option to make monthly payments with no interest rate.
-    Option 1: Equal payments of $475.50 per month
-    Option 2: Equal payments of $951 per month
-    Write a Java program that calculates how many months it will take for Dan to complete all the payments with option 1 and option 2.
-    Task 11 Write a Java program that asks user to enter 2 numbers(number1 and number2) and store those in int variables.
-    Find the result of number1/number2 and store this in a double.
-    Finally print the result
-    Task 12 Write a Java program that generates 3 random numbers between 0 and 100
-    (0 and 100 are included) and find if all numbers are more than 25
-    Task 13 -Write a Java program to ask user to enter a number between 1 and 7 (1 and 7 are included)
-    Print the day of the week according to given number. First day is MONDAY and last day is SUNDAY
-    Task 14 -Jennifer is taking a math course . This math course requires students to take 3 exams. At the end,
-    if the average of those exams is more than or equal to 70, then Jennifer will pass the course. However,
-    if the average of those 3 exams is less than 70, then Jennifer will fail.
-    Requirement:Write a Java program that asks Jennifer to enter her exam results and print if she
-    passed or failed for the exam.
-    TASK 15 Write a Java program that asks user to enter 3 numbers
-    -If all numbers are different, then print “NO MATCH”
-    -If any of those 2 numbers are equal, then print “DOUBLE MATCH”
-    -If all 3 numbers are equal, then print “TRIPLE MATCH”
-        */
-        }
             }
-    }           }
+        }
+    }
+}

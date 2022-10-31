@@ -1,0 +1,19 @@
+package arraylist_linkedlist_vector;
+
+import java.util.ArrayList;
+
+public class _05_containsAll_Method {
+    public static void main(String[] args) {
+
+        ArrayList<String> countries = new ArrayList<>();
+
+        countries.add("USA");
+        countries.add("Canada");
+        countries.add("Germany");
+        countries.add("Spain");
+        countries.add("Portugal");
+        countries.add("Sweden");
+
+        System.out.println(countries.contains("Spain") && countries.contains("Denmark"));
+    }
+}

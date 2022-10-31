@@ -72,5 +72,6 @@ public class PracticeMock2 {
         }
         System.out.println("This number is more than 100");
 
+
     }
 }

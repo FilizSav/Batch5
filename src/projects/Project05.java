@@ -99,11 +99,12 @@ public class Project05 {
         int count = 0;
         int mostCount = 0;
 
-        for (int i = 0; i < s.length-1; i++) {
-            for (int j = i + 1; j < s.length ; j++) {
-                if(s[i].equals(s[j])) count++;
-            }
-            if(mostCount > count) mostRepeat+= mostRepeat + " ";
-        }return mostRepeat;
+        for (int i = 0, j = i + 1; i < s.length - 1; i++, j++) {
+            if (s[i].equals(s[j])) count++;
+
+            if (count >= mostCount) mostRepeat = s[i] + " ";
+            mostCount = count;
+        }
+        return mostRepeat;
     }
 }

@@ -28,6 +28,7 @@ public class _13_replace_Method {
         System.out.println(words.length() - words.replaceAll("o", "").length());
 
         System.out.println(words.subSequence(3,7));
+
     }
 
 }

@@ -29,6 +29,9 @@ public class Project06 {
      String passWord = "aasA1234!";
      System.out.println(validatePassword(passWord));
 
+     System.out.println("\n+++++++++++++TASK 4  +++++++++++++\n");
+     System.out.println(isEmailFormatValid("filizsav@gmail.com"));
+
     }
 
     public static int countMultipleWords(String[] str){
@@ -62,5 +65,8 @@ public class Project06 {
 
     public static boolean validatePassword(String str){
         return Pattern.matches("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{3,16}$", str);
+    }
+    public static boolean isEmailFormatValid(String email) {
+        return Pattern.matches("[\\w.]{2,}@[\\w.]{2,}\\.[\\w.]{2,}", email);
     }
 }

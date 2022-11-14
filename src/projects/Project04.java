@@ -130,5 +130,17 @@ public class Project04 {
             }
             System.out.println("This sentence has " + aCounter + " a or A letters.");
         }
+        word = ScannerHelper.getAString();
+        boolean signal = false;
+        if (word.length() < 1) System.out.println("This word does not have 1 or more characters");
+        else if (word.length() == 1) System.out.println("This word is palindrome");
+        else {
+            for (int i = 1; i < word.length()/2; i++) {
+                if (word.charAt(i-1) == word.charAt(word.length()-i)) signal = true;
+            }
+            if (signal) System.out.println("This word is palindrome");
+            else System.out.println("This word is not palindrome");
+        }
     }
 }
+

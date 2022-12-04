@@ -6,6 +6,7 @@ import java.sql.Date;
 import java.text.DateFormat;
 import java.util.Arrays;
 import java.util.Scanner;
+import java.util.stream.IntStream;
 
 public class Homework11 {
     public static void main(String[] args) {

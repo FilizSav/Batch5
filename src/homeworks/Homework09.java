@@ -7,8 +7,15 @@ public class Homework09 {
 
         System.out.println("\n=============Task 1==============");
 
-        int[] numbers = {-4, 1, -7, 0, 5, 10, 3, 45};
+        int[] numbers = {-4, 1, -7, 0, 5, 10, 3, 45, 5};
         ArrayList<Integer> duplicate = new ArrayList<>();
+
+        for (Integer i : numbers) {
+            if(duplicate.contains(i)) {
+                System.out.println(i);
+                break;
+            }else duplicate.add(i);
+        }
 
         for (int i = 0; i < numbers.length - 1; i++) {
             for (int j = i + 1; j < numbers.length; j++)
@@ -16,6 +23,7 @@ public class Homework09 {
         }
         if (duplicate.isEmpty()) System.out.println("There is no duplicates");
         else System.out.println(duplicate.get(0));
+
 
         System.out.println("\n=============Task 2==============");
 
@@ -72,7 +80,7 @@ public class Homework09 {
         for(String w:word6){
             StringBuilder sb = new StringBuilder(w);
             sb.reverse();
-            reverseWord+=sb.toString() + " " ;
+            reverseWord += sb + " " ;
         }
         System.out.println(reverseWord);
     }
